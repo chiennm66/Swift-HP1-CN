@@ -206,25 +206,113 @@
 // IF(NẾU) ,ELSE(THÌ)
 // CÚ PHÁP
 //
-var score = 10
-if (score > 11 || score > 12 || score > 13 || score == 10){
-    print("Bạn đã pass")
-}
-else{
-    print("Điểm của bạn nhỏ hơn 10")
-}
+//var score = 10
+//if (score > 11 || score > 12 || score > 13 || score == 10){
+//    print("Bạn đã pass")
+//}
+//else{
+//    print("Điểm của bạn nhỏ hơn 10")
+//}
 
 // TOÁN TỬ LOGIC -> AND OR NOT
 //false.         false.         false.       false.        false.          true.
 // (score > 11 && score > 12 && score > 13 && score > 14. && score == 10) --> false
-
+//
 // or
-
-
-
+//
+//
+//if let a = readLine(){
+//    print("Nhập vào số của bạn là \(a)")
+//} else {
+//    print("Bạn chưa nhập gì cả")
+//}
+//print("Mời bạn nhập vào")
+//if let z = readLine(){
+//    print("Nhập vào số của bạn là \(z)")
+//} else {
+//    print("Bạn chưa nhập gì cả")
+//}
 
 // BÀI TẬP PHÂN LOẠI HỌC SINH GIỎI, KHÁ, TRUNG BÌNH, YẾU
 // DTB mình tự cho
 // var dtb :Double = 7
 
 //TẠO TÀI KHOẢN GITHUB NHA BẠN NÀO TẠO XONG CHAT DONE GITHUB Ở MỤC CHAT
+
+//var optionalInt :Int? = 10
+//let optionalString :String? = "aa"
+//print(optionalInt)
+//print(type(of: optionalInt))
+//
+//var a :Int? = 40
+//var b :Int? = 30
+//print(a! + b!)
+
+//var str :String = "445"
+//var casting = Int(str)
+//print(type(of: casting))
+
+
+// swift
+//print("NGUYEN MINH CHIEN")
+//print(28)
+//print("teaching teky")
+// CÂU LỆNH PRINT GIÚP IN RA MÀN HÌNH THÔNG TIN GÌ ĐÓ
+// IN RA  TRƯỜNG, LỚP, TUỔI
+
+// BIẾN SỐ LÀ GÌ? --> ĐẠI LƯỢNG LƯU TRỮ GIÁ TRỊ NÀO ĐÓ VÀ CÓ THỂ THAY ĐỔI THEO THƠI GIAN
+//var name = "CHIEN"
+//print(name)
+//name = "MINH"
+//print(name)
+//// HẰNG SỐ LÀ GÌ? --> ĐẠI LƯỢNG LƯU TRỮ GIÁ TRỊ NÀO ĐÓ VÀ KHÔNG THỂ THAY ĐỔI -- PI
+//let pi = 3.14
+//print(pi)
+
+// HÃY TẠO CHO THẦY, 1 BIẾN SỐ VÀ 1 HĂNG SỐ MÌNH TỰ CHỌN
+// KIỂU DỮ LIỆU LÀ GÌ? - DATATYPE --
+
+
+
+// CHỮ - SỐ - ĐÚNG SAI....
+
+// CHỮ - STRING - STR  VÍ DỤ "ĐẤHIJDASKLDJAJKFNSDKJ"
+// SỐ nguyên - INT - SỐ nguyên VÍ DỤ 4,5,6,7...
+// SÔ thực - double / float -- 5.5 , 6.6, 6.4
+// đúng sai - boolean - bool -- True or False
+
+//var name = "Town to space"
+//var score = 9.5
+//var year = 2025
+//var isCheck = true
+//// type(of:) -- đánh giá được cái ở trên là kiểu dư lieu là gì?
+//print(type(of: name))
+//print(type(of: score))
+//print(type(of: year))
+//print(type(of: isCheck))
+// tạo ra 4 biến tương ứng 4 kiểu dữ liệu khác nhau và kiểm tra kiểu dữ đó là gì?
+
+// phép nội suy chuỗi
+var str = "NGUYEN MINH CHIEN"
+// tôi tên là
+print("tôi tên là \(str)")
+// sô ky tu trong mot chuôi
+// tạo ra một chuỗi và sử dụng phep nội suy trong chuỗi
+print("số ký tự trong một chuỗi là \(str.count)")
+
+
+var title = "Hy vọng được nhen nhóm cho đội chủ nhà khi Coulibaly ghi bàn rút ngắn tỉ số xuống còn 1-3. Tuy nhiên, chỉ một phút sau, Ramos hoàn thành cú hat-trick sau đường kiến tạo của Tenas. Chung cuộc, PSG giành chiến thắng với tỉ số 4-1 trước Montpellier. "
+
+print("số ký tư ở tieu đề là \(title.count)")
+// kiểm tra chuỗi nó có rỗng hay không -- TRUE OR FALSE
+
+var hi = ""
+print(hi.isEmpty)
+print(title.isEmpty)
+var a = "CNLTA -Swift"
+var b = "CNLTA - Swift"
+print(a == b)
+
+
+// thực hiện phép so sanh chuỗi và kiểm tra chuỗi rỗng hay không
+
