@@ -405,3 +405,138 @@
 //
 //var/let diembatdau = "tekyquan7"
 //var/ let
+
+//print("Mời bạn nhập tên trường")
+//let str = readLine()
+//print("Tôi học trường: \(str)")
+// NHẬP VÀO HỌ TÊN, TRƯỜNG, SỞ THÍCH SAU ĐÓ IN RA 3 THÔNG TIN TRÊN
+// BẠN NÀO LÀM XONG CHAT LÊN DONE
+//
+//var optionalInt :Int? = 10
+//print(optionalInt)
+////var strOptional :String? = "AA"
+////print(strOptional)
+//var b :Int? = 9
+//print(b + optionalInt)
+
+
+//var a :Int? = 10
+//var b :Int? = 10
+//print(a! + b!)
+
+// mặc đinh readLine --> Optional String
+// !
+// CHỮ --> SỐ ĐỂ THỰC HIỆN PHÉP TÍNH ĐƯỢC
+//print("Mời bạn nhập vào số A")
+//let a = Double(readLine()!)
+//print("Mời bạn nhập vào số B")
+//let b = Double(readLine()!)
+//print(type(of: a))
+//print(type(of: b))
+//
+//print(a! + b!)
+// DONE type
+
+// Int(a)
+// Double()
+// String()
+
+
+// TAO PHAN MEM TINH DIEM TRUNG BINH HỌC SINH VỚI 4 MON TU CHON -- NHAP VAO BAN PHIM SAU ĐO TINH DIEM TRUNG BINH
+// PHAN LOAI HOC SINH HOC ----> ??????
+
+
+//print("diem cho toan")
+//let a = Double(readLine()!)!
+////Optional(Double)
+//print("diem cho van")
+//let b = Double(readLine()!)!
+//print("diem cho khao hoc")
+//let c = Double(readLine()!)!
+//print("diem cho dia ly")
+//let d = Double(readLine()!)!
+//
+//
+//
+//print(type(of: a))
+//print(type(of: b))
+//print(type(of: c))
+//print(type(of: d))
+//
+//let total = ((a + b + c + d) / 4)
+//
+//print("diem trung binh la",total)
+//
+//
+//if(total >= 9){
+//    print("hs xuat sac")
+//}
+//else if(total <= 7){
+//    print("hs kha")
+//}
+//else{
+//print("hs yeu")
+//}
+
+//print("nhap diem mon 1")
+//let a = Int(readLine()!)!
+//print("nhap diem mon 2")
+//let b = Int(readLine()!)!
+//print("nhap diem mon 3")
+//let c = Int(readLine()!)!
+//print("nhap diem mon 4")
+//let d = Int(readLine()!)!
+//var tb = (a + b + c + d) / 4
+//print("diem trung binh la \(tb)")
+//if tb < 5{
+//    print("hoc sinh yeu")
+//}
+//else if tb >= 8{
+//    print("hoc sinh gioi")
+//}
+//else{
+//    print("hoc sinh kha")
+//}
+
+
+
+//TÍNH CHỈ SỐ BMI --> CAN NANG VÀ CHIEU CAO -->CONG THUC TÍNH BMI
+//NHAP VÀO CAN NAG
+//NHAP VAO CHIEU CAO
+//
+//BMI <16: Gầy độ III
+//16 ≤ BMI <17: Gầy độ II
+//17 ≤ BMI <18.5: Gầy độ I
+//18.5 ≤ BMI <25: Bình thường
+//25 ≤ BMI <30: Thừa cân
+//30 ≤ BMI 35: Béo phì độ 1
+//35 ≤ BMI <40: Béo phì độ II
+//BMI >40: Béo phì độ III
+
+print("Nhap chieu cao")
+let chieuCao = readLine()!
+ 
+print("Nhap can nang")
+let canNang = readLine()!
+ 
+let BMI = Double(canNang)! / (Double(chieuCao)! * Double(chieuCao)!)
+print (BMI)
+ 
+if BMI < 18.5 {
+    print("Phân loại gầy")
+}
+else if BMI >= 18.5 && BMI < 25 {
+    print("Phân loại bình thường")
+}
+else if BMI >= 25 && BMI < 30 {
+    print("Phân loại hơi béo")
+}
+else if BMI >= 30 && BMI < 35 {
+    print("Béo phì cấp độ 1")
+}
+else if BMI >= 35 && BMI < 40 {
+    print("Béo phì cấp độ 2")
+}
+else if BMI >= 40 {
+    print("Béo phì cấp độ 3")
+}
