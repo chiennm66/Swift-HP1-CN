@@ -513,30 +513,120 @@
 //35 ≤ BMI <40: Béo phì độ II
 //BMI >40: Béo phì độ III
 
-print("Nhap chieu cao")
-let chieuCao = readLine()!
- 
-print("Nhap can nang")
-let canNang = readLine()!
- 
-let BMI = Double(canNang)! / (Double(chieuCao)! * Double(chieuCao)!)
-print (BMI)
- 
-if BMI < 18.5 {
-    print("Phân loại gầy")
-}
-else if BMI >= 18.5 && BMI < 25 {
-    print("Phân loại bình thường")
-}
-else if BMI >= 25 && BMI < 30 {
-    print("Phân loại hơi béo")
-}
-else if BMI >= 30 && BMI < 35 {
-    print("Béo phì cấp độ 1")
-}
-else if BMI >= 35 && BMI < 40 {
-    print("Béo phì cấp độ 2")
-}
-else if BMI >= 40 {
-    print("Béo phì cấp độ 3")
-}
+//print("Nhap chieu cao")
+//let chieuCao = readLine()!
+// 
+//print("Nhap can nang")
+//let canNang = readLine()!
+// 
+//let BMI = Double(canNang)! / (Double(chieuCao)! * Double(chieuCao)!)
+//print (BMI)
+// 
+//if BMI < 18.5 {
+//    print("Phân loại gầy")
+//}
+//else if BMI >= 18.5 && BMI < 25 {
+//    print("Phân loại bình thường")
+//}
+//else if BMI >= 25 && BMI < 30 {
+//    print("Phân loại hơi béo")
+//}
+//else if BMI >= 30 && BMI < 35 {
+//    print("Béo phì cấp độ 1")
+//}
+//else if BMI >= 35 && BMI < 40 {
+//    print("Béo phì cấp độ 2")
+//}
+//else if BMI >= 40 {
+//    print("Béo phì cấp độ 3")
+//}
+
+// datype, if else, variable, constants(let), optional, readLine()...
+// String - chuỗi "dòng chữ........"
+
+//var name :String = "Swift"
+//let greeting = "Xin chào"
+//// phép nối chuỗi
+//let fullGreeting = greeting + " " + name
+//// phép nội suy chuỗi
+//print("HÔM NAY TRỜI MUA \(fullGreeting)")
+//print("Số ky tu trong chuôi là \(fullGreeting.count)")
+//// Kiểm tra chuỗi rỗng hay không
+//print(fullGreeting.isEmpty) // có chữ ra false
+//
+//let str = "SWIft"
+//print("ĐỔI THÀNH CHỮ CÁI VIẾT THƯỜNG \(str.lowercased())")
+//print("ĐỔI THÀNH CHỮ CÁI VIẾT HOA \(str.uppercased())")
+//
+//
+//var subtitle = "Sự vắng mặt của Ronaldo càng được chú ý khi FIFA mới mở “cửa sổ chuyển nhượng đặc biệt” để các đội bóng dự giải bổ sung lực lượng. Điều này giúp mở ra cơ hội cuối cùng cho CR7 nếu anh kịp gia nhập một CLB khác đủ điều kiện dự giải đấu.Hiện tương lai của Ronaldo tại Al-Nassr đang bị nghi ngờ. Không ai dám chắc liệu anh có tìm được đội bóng mới để góp mặt tại giải đấu quan trọng này hay không, nhất là khi thời gian đang dần cạn kiệt."
+//// contains -- kiểm tra nó có chứa chuỗi con hay không
+//print(subtitle.contains("Messi"))
+// xoá khoảng trắng trong chuỗi
+//print(subtitle.trimmingCharacters(in: .whitespacesAndNewlines)) // có thể do biên bản Xcode
+
+
+// array - mảng - list
+//var thisList = ["Swift", "Python", "JavaScript"]
+//                //0.       //1.       //2
+//var listNumbers = [1,2,3,4,5]
+//print(thisList[1])
+//print(type(of: thisList))
+
+
+
+
+//var listStr :[Any] = ["A","B","C",1,2,3]
+//print(listStr.count)
+//// HIỆU CHỈNH ARRAY
+//listStr[0] = "F"
+//print(listStr)
+//listStr.append("Say HI") // cuối array
+//// thêm phân từ
+//print("Array sau khi thêm phần tử vào \(listStr)")
+//print("Số lượng khi thêm phần tử vào \(listStr.count)")
+//listStr.insert("Chu Nhat", at: 4) // thêm vào vị trí chỉ định
+//print(listStr)
+//listStr.remove(at: 0) // xóa phần tử tại vị trí chỉ định
+//print(listStr)
+// sắp xếp mảng
+//listStr.re
+//print(listStr)
+// tìm kiếm dữ liệu trong mảng
+//listStr.contains("B"). --- indexof
+
+
+
+
+// 1.TẠO RA MỘT ARRAY CÓ NHIỀU KIỂU DỮ LIỆU KHÁC NHAU, 2.CHỈNH SUA GIA TRỊ TRONG ARRAY, 3.THEM GIA TRI VÀO
+// CUÔI MẢNG, 4.DEM SO LUONG PHAN TU TRONG ARRAY
+
+// THỰC HIỆN THÊM ELEMENT BẰNG INSERT, XOÁ VỊ TRÍ CHỈ ĐỊNH, XOÁ ĐẦU DÒNG, XOÁ CUỐI DÒNG
+
+// DONE - ANY ARRAY
+
+
+//var listNumbers :[Int] = [1,2,7,4,10,5]
+//listNumbers.sort()
+//print(listNumbers)
+//print("Hiển thị số 8 giúp tôi: \(listNumbers.contains(2))")
+//
+//
+////for -- vòng lặp giúp mình hiển thị full
+//
+//for xyz in listNumbers{
+//    print(xyz)
+//}
+
+// TẠO LIST STRING VỚI 3,4 ELEMENTS SỬ DỤNG FOR ĐỂ IN RA MÀN HÌNH VÀ SỬ DỤNG SORT() VÀ CONTAINS ĐỂ
+// KIỂM TRA HOẶC TÌM KIẾM
+
+
+//BÀI 1 - TẠO MỘT ARRAY BAO GỒM [1,2,3,4,5,6,7,8,9,10] - TÍNH TỔNG CÁC SỐ TRONG ARRAY VÍ DỤ 1+2+3+...
+//BÀI 2 - TẠO MỘT ARRAY BAO GỒM [1,2,3,4,5,6,7,8,9,10] - IN RA CÁC SỐ CHẴN VÀ TÍNH TỔNG CÁC SỐ CHẴN
+// BÀI 3 - TẠO MỘT ARRAY BAO GỒM [1,2,3,4,5,6,7,8,9,10] - TÌM PHẦN TỬ LỚN NHẤT TRONG MẢNG
+// BÀI 4 - TẠO MỘT ARRAY BAO GỒM [1,2,3,3,4,3,5,5,6,7,8,9,10] - Số lần xuất hiện của mỗi phần tử trong mảng
+// BÀI 5 - TẠO MỘT ARRAY BAO GỒM [1,2,3,4,5,6,7,8,9,10] - TÁCH MẢNG CHẴN VÀO ARRAY MỚI
+// BÀI 6 - TẠO MỘT ARRAY BAO GỒM ["apple", "banana", "cherry"] - Tìm kiếm trong array có chứa phần tử "x" hay không? Đếm số lần xuất hiện của một ký tự "a" trong tất cả các phần tử?
+
+// BÀI 7 - TẠO MỘT ARRAY BAO GỒM ["apple", "banana", "cherry"] - Xóa các phần tử trùng nhau trong mảng
