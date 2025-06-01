@@ -5,7 +5,7 @@
 //////  Created by CHIEN on 30/3/25.
 //////
 ////
-////import Foundation
+import Foundation
 ////
 ////
 ////// hằng số - constants
@@ -630,3 +630,63 @@
 // BÀI 6 - TẠO MỘT ARRAY BAO GỒM ["apple", "banana", "cherry"] - Tìm kiếm trong array có chứa phần tử "x" hay không? Đếm số lần xuất hiện của một ký tự "a" trong tất cả các phần tử?
 
 // BÀI 7 - TẠO MỘT ARRAY BAO GỒM ["apple", "banana", "cherry"] - Xóa các phần tử trùng nhau trong mảng
+//
+//
+//for i in 1..<10 {
+//    print(i)
+//}
+
+// HÀM - FUNCTIO
+//for i in range(10)
+
+//for i in 1..<10{
+//    print("Số thứ tự \(i)")
+//}
+
+// function
+
+// hàm tự viết
+//func helloWorld(){
+//    // thực thi nv gì đó
+//    print("HÔM NAY LÀ CHỦ NHẬT")
+//}
+//helloWorld() // gọi hàm
+
+// TẠO 3 HÀM IN TÊN - IN TRƯƠNG - IN TUỔI
+// PSG VS INTER , 5-0
+// CHAT DONE FUNC
+
+//func sum(a :Int, b:Int){
+//    var total = a + b
+//    print("Tổng của hai số là: \(total)")
+//}
+//sum(a: 5, b: 10)
+
+// tạo hàm tính điểm trung bình học sinh - toan,ly,anh --- LÀM CODE THỬ -- XONG CHAT LÊN DONE
+
+//func diemTrungBinh(_ toan :Double,_ ly :Double,_ anh :Double){
+//   var total = (toan + ly + anh) / 3
+//    print("Điểm trung bình của bạn là \(total)")
+//}
+//diemTrungBinh(toan: 7, ly: 8.2, anh: 9.4)
+//diemTrungBinh(7, 8, 9)
+//
+//func findSquare(_ number :Int) -> Int{
+//    return number * number
+//}
+//let b = findSquare(4)
+//print("Square of 4 is \(b)")
+//print("Square of 5 is \(findSquare(5))")
+
+// TẠO RA MỘT HÀM TÍNH DIỆN TÍCH HÌNH CHỮ NHẬT VỚI 2 THAM SỐ LÀ DÀI VÀ RỘNG
+//print(sqrt(25))
+
+
+
+//BÀI 1: TẠO HÀM TÍNH TỔNG CÁC SỐ TRONG ARRAY[TỰ CHO]
+//BÀO 2: TẠO HÀM IN RA CÁC SỐ CHẴN TRONG ARRAY[TỰ CHO]
+//BÀI 3: TẠO HÀM TÍNH TỔNG CÁC SỐ LẺ TRONG ARRAY[TỰ CHO]
+//BÀI 4: TẠO HÀM TÌM PHẦN TỬ LỚN NHẤT TRONG ARRAY[TỰ CHO]
+//BÀI 5: TẠO HÀM IN RA CHUỖI ĐẢO NGƯỢC - CHUỖI[TỰ CHO]
+//BÀI 6: TẠO HÀM TÍNH CĂN BẬC HAI CỦA MỘT SỐ TỰ NHIÊN N[TỰ CHO]
+//BÀI 7: TẠO HÀM TÍNH BÌNH PHƯƠNG CỦA MỘT SỐ TỰ NHIÊN N[TỰ CHO]
