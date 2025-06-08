@@ -690,3 +690,151 @@ import Foundation
 //BÀI 5: TẠO HÀM IN RA CHUỖI ĐẢO NGƯỢC - CHUỖI[TỰ CHO]
 //BÀI 6: TẠO HÀM TÍNH CĂN BẬC HAI CỦA MỘT SỐ TỰ NHIÊN N[TỰ CHO]
 //BÀI 7: TẠO HÀM TÍNH BÌNH PHƯƠNG CỦA MỘT SỐ TỰ NHIÊN N[TỰ CHO]
+
+
+
+
+
+
+
+
+// variable, constants, if élse,function, list.....
+
+// key - value
+          
+
+// khai báo- định nghĩa
+//var myDict : [Int :String] = [
+//    1 : "Swift",
+//    2 : "Python",
+//    3 : "JavaScript",
+//]
+//print(type(of: myDict))
+//
+
+//var myDict = [
+//    1 : "Swift",
+//    2 : "Python",
+//    3 : "JavaScript",
+//]
+//print(type(of: myDict))
+//print(myDict)
+//
+//for (key, value) in myDict{
+//    print("Key: \(key), Value: \(value)")
+//}
+
+
+// Object {
+// JSON
+
+// KHAI BÁO DICT BAO GỒM CÁC MÔN HỌC VD TOAN : 9 --> 4 MÔN
+// BẠN NÀO LÀM XONG CHAT DONE
+//
+
+//print(dictSubjects["Toan"]!)
+//dictSubjects["Hoa"] = 10
+//print(dictSubjects)
+//dictSubjects["Ly"] = 8
+//print(dictSubjects)
+//print(dictSubjects.count)
+
+//var myDict = [Int :String] ()
+//print(myDict.isEmpty)
+//print(myDict.count)
+// thay đổi value
+// thêm key - value
+// xong chat done key - value
+
+var studentScores : [String :[String : Int]] = [
+    "Nguyen Van A": [
+        "Toan": 9,
+        "Ly": 8,
+        "Hoa": 7],
+    "Tran Thi B":
+        ["Toan": 6,
+         "Ly": 7,
+         "Hoa": 8],
+    "Le Van C":
+        ["Toan": 10,
+         "Ly": 9,
+         "Hoa": 9]
+]
+
+
+//{
+//  "links": {
+//    "self": "http://example.com/articles",
+//    "next": "http://example.com/articles?page[offset]=2",
+//    "last": "http://example.com/articles?page[offset]=10"
+//  },
+//  "data": [{
+//    "type": "articles",
+//    "id": "1",
+//    "attributes": {
+//      "title": "JSON:API paints my bikeshed!"
+//    },
+//    "relationships": {
+//      "author": {
+//        "links": {
+//          "self": "http://example.com/articles/1/relationships/author",
+//          "related": "http://example.com/articles/1/author"
+//        },
+//        "data": { "type": "people", "id": "9" }
+//      },
+//      "comments": {
+//        "links": {
+//          "self": "http://example.com/articles/1/relationships/comments",
+//          "related": "http://example.com/articles/1/comments"
+//        },
+//        "data": [
+//          { "type": "comments", "id": "5" },
+//          { "type": "comments", "id": "12" }
+//        ]
+//      }
+//    },
+//    "links": {
+//      "self": "http://example.com/articles/1"
+//    }
+//  }],
+//  "included": [{
+//    "type": "people",
+//    "id": "9",
+//    "attributes": {
+//      "firstName": "Dan",
+//      "lastName": "Gebhardt",
+//      "twitter": "dgeb"
+//    },
+//    "links": {
+//      "self": "http://example.com/people/9"
+//    }
+//  }, {
+//    "type": "comments",
+//    "id": "5",
+//    "attributes": {
+//      "body": "First!"
+//    },
+//    "relationships": {
+//      "author": {
+//        "data": { "type": "people", "id": "2" }
+//      }
+//    },
+//    "links": {
+//      "self": "http://example.com/comments/5"
+//    }
+//  }, {
+//    "type": "comments",
+//    "id": "12",
+//    "attributes": {
+//      "body": "I like XML better"
+//    },
+//    "relationships": {
+//      "author": {
+//        "data": { "type": "people", "id": "9" }
+//      }
+//    },
+//    "links": {
+//      "self": "http://example.com/comments/12"
+//    }
+//  }]
+//}
